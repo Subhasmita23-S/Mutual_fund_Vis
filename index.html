@@ -1,63 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8" />
-	<title>Team 3 – D3.js Visualization Project</title>
-	<style>
+  <meta charset="UTF-8" />
+  <title>Team 3 – D3.js Visualization Project</title>
+  <style>
     body {
-		font-family: Arial, sans-serif;
-		background-color: #f4f8fb;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		height: 100vh;
-		margin: 0;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-image: url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0'); /* Replace with your image if needed */
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+    }
+
+    .card {
+      background: rgba(0, 0, 0, 0.65);
+      padding: 40px 60px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
     }
 
     h1 {
-		margin-bottom: 10px;
-		font-size: 2rem;
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #f2f2f2;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      margin-bottom: 20px;
+      color: #ddd;
     }
 
     ul {
-		list-style-type: none;
-		padding: 0;
-		margin-bottom: 30px;
+      list-style-type: none;
+      padding: 0;
+      margin-bottom: 30px;
     }
 
     li {
-		font-size: 1.2rem;
-		margin: 6px 0;
+      font-size: 1.1rem;
+      margin: 6px 0;
+      color: #ccc;
     }
 
     .btn {
-		padding: 12px 30px;
-		font-size: 1rem;
-		background-color: #007acc;
-		color: white;
-		border: none;
-		border-radius: 8px;
-		text-decoration: none;
-		transition: background-color 0.3s;
+      padding: 12px 30px;
+      font-size: 1rem;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s, transform 0.2s;
+      display: inline-block;
     }
 
     .btn:hover {
-		background-color: #005fa3;
+      background-color: #218838;
+      transform: scale(1.05);
     }
-	</style>
+  </style>
 </head>
 <body>
 
-	<h1>Information Visualization - Project 3</h1>
-	<h2>Team 3 Members</h2>
-	<ul>
-    <li>Mukthasree Vengoti</li>
-    <li>Keerthi Akhila Pasam</li>
-    <li>Subhasmita Maharana</li>
-	</ul>
+  <div class="card">
+    <h1>Information Visualization - Project 3</h1>
+    <h2>Team 3 Members</h2>
+    <ul>
+      <li>Mukthasree Vengoti – <strong>811296123</strong></li>
+      <li>Keerthi Akhila Pasam – <strong>811304142</strong></li>
+      <li>Subhasmita Maharana – <strong>811263851</strong></li>
+    </ul>
 
-	<a href="dashboard.html" class="btn">Get Started Here!!</a>
+    <a href="dashboard.html" class="btn">🔍 Visual Project</a>
+  </div>
 
 </body>
 </html>
